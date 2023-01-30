@@ -64,7 +64,7 @@ section{
     padding: 0 10rem;
 }
 .text{
-    font-size: 1rem;
+    font-size: 2rem;
     padding: 0 10rem;
     margin: 4rem 0;
    
@@ -75,8 +75,23 @@ section{
     width: 100%;
     background-attachment: fixed;
     height: 500px;
+    background-size: cover;
+    background-position: center;
+
 }
 
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 40%;
+    left: 60%;
+    transform: translate(-60%) translateX(-50%) translateY(30%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+    
+}
 
 
 
